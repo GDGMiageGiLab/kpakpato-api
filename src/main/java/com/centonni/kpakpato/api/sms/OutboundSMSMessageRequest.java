@@ -55,9 +55,10 @@ class OutboundSMSMessageRequest {
     public void setSenderAddress(String senderAddress) {
         this.senderAddress = senderAddress;
     }
-
+    
+    // Not available in this API Version
     public String getSenderName() {
-        return senderName;
+        return senderName; 
     }
 
     public void setSenderName(String senderName) {
